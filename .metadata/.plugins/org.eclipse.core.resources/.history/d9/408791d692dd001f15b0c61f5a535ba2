@@ -1,0 +1,25 @@
+package com.jsp.e_commerce_jee_project.dao.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.jsp.e_commerce_jee_project.dao.connection.ConnectionDao;
+
+public class AdminDao {
+	private final String Insert="";
+	
+	ConnectionDao connection =new ConnectionDao();
+	Connection con=connection.getConnection();
+	public void registerCustomer() {
+		
+		try {
+			PreparedStatement ps=con.prepareStatement(Insert);
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		}
+		
+	}
+
+}

@@ -1,0 +1,57 @@
+package com.jsp.e_commerce_jee_project.dao.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.jsp.e_commerce_jee_project.dao.connection.ConnectionDao;
+import com.jsp.e_commerce_jee_project.dao.entity.Customer;
+
+public class AdminDao {
+
+    // SQL query to insert a new customer
+    private static final String INSERT_QUERY = "INSERT INTO customer_register (name, email, password, phone, address) VALUES (?, ?, ?, ?, ?)";
+
+    // Method to register a customer
+    public void registerCustomer(Customer customer) {
+        ConnectionDao connection = new ConnectionDao();
+        Connection con = null;
+        PreparedStatement ps = null;
+
+        try {
+            // Get the database connection
+            con = connection.getConnection();
+
+            // Prepare the SQL statement
+            ps = con.prepareStatement(INSERT_QUERY);
+
+            // Set the values for the prepared statement
+            ps.setString(1, customer.getName());
+            ps.setString(2, customer.getEmail());
+            ps.setString(3, customer.getPassword());
+            ps.setString(4, customer.getPhone());
+            ps.setString(5, customer.getAddress());
+
+            // Execute the query
+            int rowsAffected = ps.executeUpdate();
+
+            // Check if the insertion was successful
+            if (rowsAffected > 0) {
+                System.out.println("Customer registered successfully!");
+            } else {
+                System.out.println("Failed to register customer.");
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            // Close resources in the finally block
+            try {
+                if (ps != null) ps.close();
+                if (con != null) con.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}

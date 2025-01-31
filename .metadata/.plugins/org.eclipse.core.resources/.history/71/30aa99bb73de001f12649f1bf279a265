@@ -1,0 +1,5 @@
+package com.jsp.e_commerce_jee_project.dao;
+
+public interface AdminDao {
+
+}

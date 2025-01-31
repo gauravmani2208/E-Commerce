@@ -1,0 +1,5 @@
+127.0.0.1 - - [29/Jan/2025:23:53:42 +0530] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [29/Jan/2025:23:54:12 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [29/Jan/2025:23:54:14 +0530] "GET /e-commerce-jee-project/admin-register.jsp HTTP/1.1" 200 4058
+0:0:0:0:0:0:0:1 - - [29/Jan/2025:23:54:14 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [29/Jan/2025:23:54:29 +0530] "POST /e-commerce-jee-project/adminRegister HTTP/1.1" 500 3383

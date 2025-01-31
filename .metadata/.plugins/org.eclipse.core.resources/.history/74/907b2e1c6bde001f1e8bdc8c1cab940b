@@ -1,0 +1,5 @@
+package com.jsp.e_commerce_jee_project.controller;
+
+public class RegisterAdminController {
+
+}
