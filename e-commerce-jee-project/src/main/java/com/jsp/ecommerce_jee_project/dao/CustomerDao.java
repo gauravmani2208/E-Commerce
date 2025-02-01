@@ -9,4 +9,3 @@ public interface CustomerDao {
 	public Customer getCustomerByIdDao(String email);
 
 }
-

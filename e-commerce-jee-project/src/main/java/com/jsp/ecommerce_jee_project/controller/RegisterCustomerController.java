@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import com.jsp.ecommerce_jee_project.dao.CustomerDao;
-import com.jsp.ecommerce_jee_project.dao.CustomerDaoImpl;
+import com.jsp.ecommerce_jee_project.dao.impl.CustomerDaoImpl;
 import com.jsp.ecommerce_jee_project.entity.Customer;
 
 import jakarta.servlet.ServletException;

@@ -5,7 +5,7 @@ package com.jsp.ecommerce_jee_project.controller;
 import java.io.IOException;
 
 import com.jsp.ecommerce_jee_project.dao.ProductOwnerDao;
-import com.jsp.ecommerce_jee_project.dao.ProductOwnerDaoImpl;
+import com.jsp.ecommerce_jee_project.dao.impl.ProductOwnerDaoImpl;
 import com.jsp.ecommerce_jee_project.entity.ProductOwner;
 
 import jakarta.servlet.ServletException;

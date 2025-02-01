@@ -2,9 +2,9 @@ package com.jsp.ecommerce_jee_project.controller;
 
 import java.io.IOException;
 
-import com.jsp.ecommerce_jee_project.dao.AdminDaoImpl;
 import com.jsp.ecommerce_jee_project.dao.CustomerDao;
-import com.jsp.ecommerce_jee_project.dao.CustomerDaoImpl;
+import com.jsp.ecommerce_jee_project.dao.impl.AdminDaoImpl;
+import com.jsp.ecommerce_jee_project.dao.impl.CustomerDaoImpl;
 import com.jsp.ecommerce_jee_project.entity.Admin;
 import com.jsp.ecommerce_jee_project.entity.Customer;
 

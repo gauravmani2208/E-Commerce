@@ -1,0 +1,36 @@
+package com.jsp.ecommerce_jee_project.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.jsp.ecommerce_jee_project.connection.EcommerceConnection;
+import com.jsp.ecommerce_jee_project.dao.AdminDao;
+import com.jsp.ecommerce_jee_project.entity.Admin;
+import com.jsp.ecommerce_jee_project.entity.Customer;
+
+public class AdminDaoImpl implements AdminDao {
+	
+	Connection connection = EcommerceConnection.getEcommerceConnection();
+
+	final String CUSTOMER_REGISTER_QUERY = "insert into admin(name,email,password,image) values(?,?,?,?)";
+
+	final String GET_CUSTOMER_BY_EMAIL_QUERY = "select * from admin where email=?";
+
+	@Override
+	public Admin registerAdminDao(Admin customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Admin getAdminByIdDao(String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+
+}

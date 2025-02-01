@@ -46,7 +46,7 @@
                                     </div>
                                     <div class="col-md-9 pe-5">
 
-                                        <input type="text" class="form-control form-control-lg" name="customerName"/>
+                                        <input type="text" class="form-control form-control-lg" name="adminName"/>
 
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@
                                     <div class="col-md-9 pe-5">
 
                                         <input type="email" class="form-control form-control-lg"
-                                            placeholder="example@example.com" name="customerEmail" />
+                                            placeholder="example@example.com" name="adminEmail" />
 
                                     </div>
                                 </div>
@@ -78,7 +78,7 @@
                                     <div class="col-md-9 pe-5">
 
                                         <input type="password" class="form-control form-control-lg"
-                                            placeholder="enter password" name="customerPassword" />
+                                            placeholder="enter password" name="adminPassword" />
 
                                     </div>
                                 </div>

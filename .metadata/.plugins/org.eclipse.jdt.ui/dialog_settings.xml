@@ -7,14 +7,14 @@
 		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="653"/>
+		<item key="DIALOG_X_ORIGIN" value="520"/>
 		<item key="DIALOG_Y_ORIGIN" value="125"/>
 		<item key="DIALOG_WIDTH" value="700"/>
 		<item key="DIALOG_HEIGHT" value="783"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="NewPackageCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_X_ORIGIN" value="520"/>
 		<item key="DIALOG_Y_ORIGIN" value="199"/>
 		<item key="DIALOG_WIDTH" value="700"/>
 		<item key="DIALOG_HEIGHT" value="480"/>
@@ -32,7 +32,7 @@
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
-		<item key="updateSimilarElements" value="true"/>
+		<item key="updateSimilarElements" value="false"/>
 		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
@@ -49,11 +49,11 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="NewInterfaceCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="614"/>
+		<item key="DIALOG_X_ORIGIN" value="510"/>
 		<item key="DIALOG_Y_ORIGIN" value="79"/>
 		<item key="DIALOG_WIDTH" value="710"/>
 		<item key="DIALOG_HEIGHT" value="661"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="SourceActionDialog.constructors">
 		<item key="VisibilityModifier" value="1"/>
@@ -65,7 +65,7 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="708"/>
+		<item key="DIALOG_X_ORIGIN" value="542"/>
 		<item key="DIALOG_Y_ORIGIN" value="88"/>
 		<item key="DIALOG_WIDTH" value="678"/>
 		<item key="DIALOG_HEIGHT" value="869"/>

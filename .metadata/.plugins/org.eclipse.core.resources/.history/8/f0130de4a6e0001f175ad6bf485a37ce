@@ -1,0 +1,12 @@
+package com.jsp.ecommerce_jee_project.dao;
+
+import com.jsp.ecommerce_jee_project.entity.Admin;
+import com.jsp.ecommerce_jee_project.entity.Customer;
+
+public interface AdminDao {
+
+	public Customer registerAdminDao(Customer customer);
+
+	public Customer getAdminByIdDao(String email);
+
+}
